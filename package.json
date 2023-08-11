@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "docker run -p 3000:3000 -v $(pwd):/app suhbahai:latest"
   },
   "dependencies": {
     "@types/node": "20.4.10",
