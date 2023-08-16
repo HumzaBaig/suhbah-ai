@@ -4,7 +4,7 @@ const RootPage = () => {
   return (
     <div>
       Root Page (Protected)
-      <UserButton afterSignOutUrl="/sign-in" />
+      <UserButton afterSignOutUrl="/" />
     </div>
   );
 };
